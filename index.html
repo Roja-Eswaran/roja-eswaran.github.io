@@ -18,12 +18,22 @@
             background-color: #fff;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: relative; /* Make container position relative */
         }
         h1 {
             color: #333;
         }
         p {
             color: #666;
+        }
+        .image-container {
+            position: absolute; /* Position the image absolutely within the container */
+            top: 10px; /* Distance from the top */
+            left: 10px; /* Distance from the left */
+        }
+        img {
+            max-width: 150px; /* Adjust the maximum width of the image */
+            height: auto;
         }
     </style>
 </head>
