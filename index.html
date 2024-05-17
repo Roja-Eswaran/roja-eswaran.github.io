@@ -31,6 +31,12 @@
             top: 10px; /* Distance from the top */
             left: 10px; /* Distance from the left */
         }
+        
+        .image-container-right {
+            position: absolute; /* Position the image absolutely within the container */
+            top: 10px; /* Distance from the top */
+            right: 10px; /* Distance from the left */
+        }
         img {
             max-width: 150px; /* Adjust the maximum width of the image */
             height: auto;
@@ -42,19 +48,22 @@
     </style>
 </head>
 <body>
+    
     <div class="container">
         <h1>Roja Eswaran</h1>
         <p>Ph.D. Candidate @Binghamton University</p>
         <p>Research and Development Engineer @ZEDEDA</p>
         <p></p>
     </div>
+    
     <div class="image-container">
         <img src="roja.jpg" alt="Example Image">
     </div>
     
-    <div class="bear">
+    <div class="image-container-right">
         <img src="bearcat.png" alt="Bear">
     </div>
+    
     <h2>Publications</h2>
         <ul class="publication">
             <li> Roja Eswaran, Mingjie Yan, Kartik Gopalan <i><b> Template-aware Live Migration of Virtual Machines</i></b>, In The Eighth ACM/IEEE Symposium on Edge Computing (SEC ’23) EdgeComm. Delaware, December 2023 <a href="TLM.pdf"> [paper] </a><a href="edgecomm23.bib"> [bibtex] </a></li>
