@@ -97,9 +97,9 @@
     
     <h2>Opensource Contributions</h2>
     <ol class="opensource">
-        <li>Memory reduction in Kubevirt-EVE: </li>
-        <li>Xen-tools version upgrade in EVE: </li>
-        <li>Memory-Region-Aware Copy: </li>
+        <li>Reduced memory usage of Idle Kubvirt from 1.1G to 350MB <cite><a href="https://github.com/naiming-zededa/eve/commit/74b191949f7dbb5b1b7f5cb87330dd00d8029ab7"> [commit1], </a> <a href="https://github.com/naiming-zededa/eve/commit/487dc8b48148cafc4c9e6c91485304adef327ec8"> [commit2 ]</a></cite></li>
+        <li>Upgraded Xen-tool version to take from 4.18 to 4.19 for EVE to take advantage of QEMU version upgrade from 5.1 to 8.0.4 <cite><a href="https://github.com/lf-edge/eve/pull/4186"> [commit] </a></cite></li>
+        <li>Optimized traditional memcpy by only copying the valid data instead of holes thereby reducing copy time by 10 times <cite><a href=https://github.com/Roja-Eswaran/memory-region-aware-copy"> [commit] </a></cite></li>
         <li>Accurate QEMU Timestamps: </li>
             
     </ol>
