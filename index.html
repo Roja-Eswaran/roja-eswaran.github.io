@@ -55,6 +55,23 @@
             text-decoration: none;
             color: #007bff;
         }
+	    .circle-frame {
+            width: 200px;  /* Set the size of the circle */
+            height: 200px; /* Set the size of the circle */
+            border-radius: 50%; /* Make it circular */
+            overflow: hidden; /* Ensure the image doesn't spill out of the circle */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 5px solid #000; /* Optional: Adds a border around the circle */
+        }
+
+        /* Image inside the circle */
+        .circle-frame img {
+            width: 100%; /* Make the image take up the full width of the circle */
+            height: 100%; /* Make the image take up the full height of the circle */
+            object-fit: cover; /* Ensure the image covers the circle without distortion */
+        }
     </style>
 </head>
 <body>
@@ -70,7 +87,7 @@
         <a href ="CV-RojaEswaran.pdf"> [CV] </a>
     </div>
     
-    <div class="image-container">
+    <div class="circle-frame">
         <img src="roja.jpg" alt="Image">
     </div>
     
