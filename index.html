@@ -57,21 +57,21 @@
             text-decoration: none;
             color: #007bff;
         }
-		.circle-frame {
-    width: 200px;
-    height: 200px;
+.circle-frame {
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
     overflow: hidden;
     position: absolute;
-    top: 20px;
-    left: 20px;
-    border: 5px solid #000;
+    top: 10px;     /* Move down slightly from container top */
+    left: 10px;    /* Move slightly from container left */
+    border: 4px solid #000;
 }
 
 .circle-frame img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* ensures perfect fit inside circle */
+    object-fit: cover;
 }
     </style>
 </head>
@@ -141,6 +141,7 @@
     </ol>
 </body>
 </html>
+
 
 
 
